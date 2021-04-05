@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* =#mainDataTable Style
+-------------------------------------------------------------- */
+
+table#mainDataTable td img {
+	height: auto;
+}
+
+
+/* =usces_admin
+-------------------------------------------------------------- */
+
+#poststuff .item-main-pict img {
+	height: auto;
+}
+
+.usces_admin #cart_table #orderitemlist img {
+	height: auto;
+}
+
+
+/* =theme_cutomizer
+-------------------------------------------------------------- */
+
+#accordion-section-welcart_basic_design input[type=number] {
+	width: 20%;
+	text-align: center;
+}

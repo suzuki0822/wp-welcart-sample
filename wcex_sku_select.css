@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+/* =item-single.php
+-------------------------------------------------------------- */
+
+/* -- .item-sku -- */
+.skuform .item-sku {
+	margin-bottom: 20px;
+}
+/* - radio - */
+dl.item-sku {
+	display: block;
+	padding: 20px 0;
+	border: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+dl.item-sku dt {
+	display: block;
+	font-weight: bold;
+	padding: 0;
+	background: none;
+	border: none;
+}
+dl.item-sku dt:after {
+	display: none;
+}
+dl.item-sku dd {
+	display: block;
+	margin-bottom: 10px;
+	padding: 0;
+	border: none;
+}
+dl.item-sku dd:last-child {
+	margin-bottom: 0;
+}
+dl.item-sku dd input[type="radio"] {
+	display: none;
+}
+dl.item-sku dd input[type="radio"]:checked + label {
+	border: 3px solid #333;
+	padding: 0 20px;
+}
+dl.item-sku dd label {
+	color: #000;
+	border: 2px solid #ddd;
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 1px 21px;
+	cursor: pointer; 
+}
+dl.item-sku dd label:hover {
+	border: 3px solid #333;	
+	padding: 0 20px;
+}
+/* - table - */
+table.item-sku {
+    display: block;
+    position: relative;
+    width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+.item-sku thead {
+    display: block;
+    float: left;	
+}
+.item-sku thead tr {
+	display: block;
+}
+.item-sku tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+	letter-spacing: -10px;
+}
+.item-sku tbody tr {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+.item-sku tbody tr {
+	border-right: 1px solid #dfdfdf;
+}
+.item-info .item-sku tbody tr th {
+	border: none;
+	border-top: 1px solid #dfdfdf;
+}
+.item-info .item-sku th {
+	display: block;
+	width: auto;
+	height: 31px;
+	padding: 5px 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+	text-align: center;
+}
+.item-info .item-sku td {
+	display: block;
+	width: auto;
+	height: 31px;
+	padding: 5px 10px;
+	border: none;
+	border-top: 1px solid #dfdfdf;
+	text-align: center;
+}
+.item-info .item-sku th:last-child,
+.item-info .item-sku td:last-child {
+	border-bottom: 1px solid #dfdfdf;
+}
+table.item-sku input[type="radio"] {
+	margin: 0;
+	vertical-align: middle;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border-radius: 50%;  
+}
+
+/* -- WCEX Auto Delivery -- */
+
+/* -- table -- */
+#wc_regular table.item-sku {
+    display: block;
+    position: relative;
+    width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+#wc_regular .item-sku thead {
+    display: block;
+    float: left;	
+}
+#wc_regular .item-sku thead tr {
+	display: block;
+}
+#wc_regular .item-sku tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+	letter-spacing: -10px;
+}
+#wc_regular .item-sku tbody tr {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+#wc_regular .item-sku tbody tr {
+	border-right: 1px solid #dfdfdf;
+}
+#wc_regular .item-sku tbody tr th {
+	border: none;
+	border-top: 1px solid #dfdfdf;
+}
+#wc_regular .item-sku th {
+	display: block;
+	width: auto;
+	height: 31px;
+	padding: 5px 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+	text-align: center;
+}
+#wc_regular .item-sku td {
+	display: block;
+	width: auto;
+	height: 31px;
+	padding: 5px 10px;
+	border: none;
+	border-top: 1px solid #dfdfdf;
+	text-align: center;
+}
+#wc_regular .item-sku th:last-child,
+#wc_regular .item-sku td:last-child {
+	border-bottom: 1px solid #dfdfdf;
+}
+#wc_regular table.item-sku input[type="radio"] {
+	margin: 0;
+	vertical-align: middle;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border-radius: 50%;  
+}
+
+/* -- .wcss_loading -- */
+
+.wcss_loading {
+	text-align: right;
+}
+
+/**
+ * 16.2 Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+
+	/* =item-single.php
+	-------------------------------------------------------------- */
+
+	/* -- .item-sku -- */
+	
+	/* - radio - */
+	dl.item-sku dt {
+		width: 25%;
+		display: inline-block;
+		margin-bottom: .714286em;
+		vertical-align: top;
+	}
+	dl.item-sku dd {
+		width: 65%;
+		display: inline-block;
+		margin-bottom: .714286em;
+		padding-left: 3%;
+		border-left: 1px solid #ccc;		
+	}
+
+	/* - table - */
+	table.item-sku {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 0;
+		border: none;
+		border-bottom: 1px solid #dfdfdf;
+		border-left: 1px solid #dfdfdf;
+	}
+	.item-sku thead,
+	.item-sku tbody {
+		display: table-row-group;
+		float: none;
+	}
+	.item-sku thead tr,
+	.item-sku tbody tr {
+		display: table-row;
+		float: none;
+	}
+	.item-info .item-sku th,
+	.item-info .item-sku td {
+		display: table-cell;
+		border: 1px solid #dfdfdf;
+	}
+	.item-info .item-sku th,
+	.item-info .item-sku tbody tr th,
+	.item-info .item-sku th:last-child,
+	.item-info .item-sku td,
+	.item-info .item-sku td:last-child {
+		height: auto;
+		border: none;
+		border-top: 1px solid #dfdfdf;
+		border-right: 1px solid #dfdfdf;
+	}
+
+	/* -- WCEX Auto Delivery -- */
+
+	/* -- dl,dt,dd -- */
+	
+	#wc_regular dl.item-sku {
+		overflow: hidden;
+	}
+	#wc_regular dl.item-sku dt,
+	#wc_regular dl.item-sku dd {
+		float: left;
+	}
+
+	/* - table - */
+	#wc_regular table.item-sku {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 0;
+		border: none;
+		border-bottom: 1px solid #dfdfdf;
+		border-left: 1px solid #dfdfdf;
+	}
+	#wc_regular .item-sku thead,
+	#wc_regular .item-sku tbody {
+		display: table-row-group;
+		float: none;
+	}
+	#wc_regular .item-sku thead tr,
+	#wc_regular .item-sku tbody tr {
+		display: table-row;
+		float: none;
+	}
+	#wc_regular .item-sku th,
+	#wc_regular .item-sku td {
+		display: table-cell;
+		border: 1px solid #dfdfdf;
+	}
+	#wc_regular .item-sku th,
+	#wc_regular .item-sku tbody tr th,
+	#wc_regular .item-sku th:last-child,
+	#wc_regular .item-sku td,
+	#wc_regular .item-sku td:last-child {
+		height: auto;
+		border: none;
+		border-top: 1px solid #dfdfdf;
+		border-right: 1px solid #dfdfdf;
+	}
+
+	
+}

@@ -1,0 +1,441 @@
+/* = Common
+-------------------------------------------------------------- */
+.ui-dialog input,
+.open_allocation_bt,
+.go_destination a {
+	-webkit-transition: .3s ease all;
+	-moz-transition: .3s ease all;
+	-o-transition: .3s ease all;
+	transition: .3s ease all;
+}
+.go_destination a:hover {
+	text-decoration: none;
+}
+/* button white-orange */
+.open_allocation_bt {
+	background-color: #fff;
+	color: #ff8c00;
+	border-color: #ff8c00;
+}
+.open_allocation_bt:hover {
+    background-color: #fdffd3;
+    color: #e28619;
+}
+/* button blue */
+#memberinfo .msa_area .return_navi a,
+.ui-widget-content .go_destination a {
+	background-color: #2EA2CC;
+	border-color: #2EA2CC;
+}
+#memberinfo .msa_area .return_navi a:hover,
+.ui-widget-content .go_destination a:hover {
+    background-color: #1E8CBE;
+}
+/* button orange */
+#determine,
+#new_alloc_button,
+input[type=button].allocation_edit_button {
+	background-color: #ff8c00;
+	border-color: #ff8c00;
+}
+#determine:hover,
+#new_alloc_button:hover,
+input[type=button].allocation_edit_button:hover {
+	background-color: #ffa500;
+	border-color: #ffa500;
+}
+/* button gray */
+input[type=button].allocation_delete_button {
+	border: 1px solid #d3d3d3;
+}
+
+/* = Dialog
+-------------------------------------------------------------- */
+.ui-dialog.allocation {
+	padding: 0;
+	border: 1px solid #ccc;
+}
+.ui-dialog.allocation .ui-widget-header {
+	background: none;
+	background-color: #161616;
+	color: #fff;
+	border-radius: 0;
+}
+.ui-dialog.allocation #allocation_dialog {
+	width: 100% !important;
+	min-width: inherit !important;
+	max-height: none !important;	
+	padding: 10px;
+}
+.allocation_inner #allocate_response .errmes {
+	margin: 0;
+	padding: 5px 0;
+	background: none;
+	color: #d00;
+	font-weight: bold;
+}
+.new_alloc_button_area {
+	margin-bottom: 10px;
+}
+.go_destination {
+	display: block;
+	margin: 0;
+}
+.go_destination a,
+#new_alloc_button,
+.destination_area .destination_name,
+.destination_area .edit_button_area {
+	display: block;
+	width: 100%;
+}
+.go_destination a {
+	text-align: center;
+}
+.destination_area .destination_name,
+.destination_area .edit_button_area {
+	float: none;
+}
+input[type=button].allocation_edit_button {
+	width: 60%;
+}
+.ui-dialog.allocation select#destination {
+	width: 9em;
+	height: 2.5em;
+	margin-right: .5em;
+	vertical-align: middle;
+}
+.msa_table th,
+.msa_table td {
+	padding: .5em 0;
+	vertical-align: middle;
+}
+.msa_table .msa_thumb,
+.msa_table .msa_arrow {
+	display: none;
+}
+.msa_table td.msa_quantity {
+	text-align: right;
+}
+.msa_table td.msa_quantity input {
+    width: 40px;
+	margin-left: .5em;
+	padding: .5714285em;
+    border: 1px solid #aaa;
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/* = Delivery Page
+-------------------------------------------------------------- */
+#multi_cart_table #cart_table .thumbnail {
+	display: table-cell;
+}
+#multi_cart_table .subtotal {
+	width: 5em;
+}
+#msa_delivery_date_after {
+	display: block;
+	margin: .5em 0 0;
+}
+
+/* = Confirm Page
+-------------------------------------------------------------- */
+#wc_confirm #cart_table .thumbnail {
+	display: table-cell;
+}
+#cart_table td.msa-destination,
+#cart_table td.msa-postage-title,
+#cart_table td.msa-postage-detail {
+	background-color: #f6f6f6;
+}
+#cart_table td.msa-destination {
+	text-align: left;
+}
+#cart_table td.msa-postage-detail {
+	text-align: right;
+}
+
+/* = Member Page
+-------------------------------------------------------------- */
+#memberinfo a.usces_logout_a {
+	margin-top: 0;
+}
+.return_navi {
+	position: inherit;
+	top: inherit;
+	right: inherit;
+	margin-top: 10px;
+}
+#new_destination,
+#memberinfo .msa_area .return_navi a {
+	width: 100%;
+	text-align: center;
+}
+#new_destination {
+	margin: 20px 0 0;
+	padding: .714286em 1.42857em;
+}
+#memberinfo .msa_area .return_navi a {
+	color: #fff;
+	border: #0074A2 1px solid;
+}
+.msa_operation label {
+	display: block;
+}
+.msa_operation #destination {
+	margin: 0;
+	width: 100%;
+}
+.msa_field {
+	padding: 1.071428em 0;
+	background: none;
+	border-bottom: #efefef 2px solid;
+}
+.msa_field label {
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+.msa_field textarea,
+.msa_field input[type=text] {
+	margin: 0;
+	vertical-align: middle;
+}
+.msa_field #msa_company,
+.msa_field #msa_address1,
+.msa_field #msa_address2,
+.msa_field #msa_address3,
+.msa_field #msa_note {
+	width: 100%;
+}
+.msa_field #msa_name,
+.msa_field #msa_name2,
+.msa_field #msa_furigana,
+.msa_field #msa_furigana2 {
+	margin: 0 .5em;
+	width: 43%;
+}
+.msa_field #msa_name2,
+.msa_field #msa_furigana2 {
+	margin-right: 0;
+}
+.msa_field #msa_zip {
+	width: 8em;
+}
+.msa_field .search-zipcode {
+	margin-left: .5em;
+}
+
+/* -- #wc_member_msa -- */
+#wc_member_msa table {
+	display: block;
+	width: 100%;
+	margin-bottom: .714286em;
+	border: none;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;	
+}
+#wc_member_msa table tbody,
+#wc_member_msa table tr {
+	display: block;	
+}
+#wc_member_msa table th {
+    display: block;
+    font-weight: normal;
+    width: auto;
+    padding: .357143em;
+    background-color: #efefef;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+#wc_member_msa table td {
+    display: block;
+    padding: .357143em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+#wc_member_msa table th.space,
+#wc_member_msa table td.space {
+	display: none;
+}
+
+
+/**
+ * Mobile Large 620px
+ */
+@media screen and (min-width: 38.75em) {
+	
+	/* = Member Page
+	---------------------------------------------------------- */
+	.member_submenu {
+		text-align: center;
+	}
+	.member_submenu li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.member_submenu li.member-logout {
+		display: block;
+		margin-right: 0;
+	}
+
+	/* - #wc_member_msa  - */
+	#wc_member_msa table {
+		display: table;
+		font-size: 1em;
+		font-weight: normal;		
+	}
+	#wc_member_msa table tbody {
+		display: table-row-group;
+	}
+	#wc_member_msa table tr {
+		display: table-row;
+	}
+	#wc_member_msa table th {
+		display: table-cell;
+		font-weight: bold;
+		border: 1px solid #ccc;		
+	}
+	#wc_member_msa table td {
+		display: table-cell;
+		border: 1px solid #ccc;		
+	}
+	#wc_member_msa table th.space,
+	#wc_member_msa table td.space {
+		display: table-cell;
+	}
+	
+
+}
+
+/**
+ * Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+	/* = Common
+	---------------------------------------------------------- */
+	.go_destination,
+	.go_destination a,
+	#new_alloc_button,
+	#memberinfo .msa_area .return_navi a,
+	.msa_operation label,
+	.msa_field label {
+		display: inline-block;
+	}
+	.msa_table .msa_thumb,
+	#wc_confirm #cart_table .num {
+		display: table-cell;
+	}
+	.go_destination a,
+	#new_alloc_button,
+	input[type=button].allocation_edit_button,
+	.destination_area .edit_button_area,
+	#new_destination,
+	#memberinfo .msa_area .return_navi a {
+		width: auto; 
+	}
+	.msa_table .msa_thumb img {
+		height: auto;
+	}
+	/* = Dialog
+	---------------------------------------------------------- */
+	.ui-dialog.allocation {
+		width: 90% !important;
+	}
+	.go_destination {
+		margin-right: 1em;
+	}
+	#new_alloc_button {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.allocation_dialog_exp {
+		margin-top: 0;
+	}
+	.destination_area {
+		overflow: hidden;
+	}
+	.destination_area .destination_name {
+		float: left;
+		width: 50%;
+	}
+	.destination_area .edit_button_area {
+		float: right;
+	}
+	.msa_table th,
+	.msa_table td {
+		padding: .5em;
+	}
+	/* = Member Page
+	---------------------------------------------------------- */
+	.msa_area .msa_total {
+		margin-bottom: 20px;
+	}
+	#new_destination {
+		margin: 0 0 0 1em;
+		vertical-align: middle;
+	}
+	.return_navi {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-top: 0;
+	}
+	#memberinfo .msa_area .return_navi a {
+		padding: .53em 1.42857em;
+	}
+	.msa_operation #destination {
+		margin-left: 10px;
+		width: 60%;
+	}
+	.msa_field {
+		border-top: none;
+		border-bottom-width: 1px;
+	}
+	.msa_field label {
+		width: 25%;
+	}
+	.msa_field select {
+		margin: 0;
+		width: auto;
+	}
+	.msa_field #msa_company,
+	.msa_field #msa_address1,
+	.msa_field #msa_address2,
+	.msa_field #msa_address3,
+	.msa_field #msa_note {
+		width: 75%;
+	}
+	.msa_field #msa_name,
+	.msa_field #msa_name2,
+	.msa_field #msa_furigana,
+	.msa_field #msa_furigana2 {
+		width: 30%;
+	}
+}
+
+/**
+ * Tablet Large 880px
+ */
+@media screen and (min-width: 55em) {
+	/* = Member Page
+	---------------------------------------------------------- */
+	.msa_operation #destination {
+		width: auto;
+	}
+}
+
+
+@media screen and (min-width: 62.5em) {
+	/* = Member Page
+	---------------------------------------------------------- */
+	#wc_member_msa table th {
+		padding: .714286em;
+	}
+	#wc_member_msa table td {
+		padding: .357143em 1.071428em;
+	}
+}

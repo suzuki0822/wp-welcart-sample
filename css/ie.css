@@ -1,0 +1,26 @@
+/**
+ * Global Styles for older IE versions (previous to IE).
+ */
+
+/* =Base
+-------------------------------------------------------------- */
+
+select {
+	width: 50%;
+	height: auto;
+	padding: .975em 1.125em .975em .6em;
+	background: none;
+}
+input[type="checkbox"] {
+	border: none\9;
+}
+input[type="radio"] {
+	border: none;
+}
+
+/* =item-single.php
+-------------------------------------------------------------- */
+
+.item-info .quantity input.skuquantity {
+	line-height: 3.37em \9;
+}

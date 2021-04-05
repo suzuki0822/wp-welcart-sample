@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* =WCEX Widget Cart
+-------------------------------------------------------------- */
+
+.widget_wcex_olwidget table {
+	font-size: 13px;
+	border: 1px solid #e0e0e0;
+	border-collapse: collapse;
+}
+.widget_wcex_olwidget td {
+	padding: .3846em .7692em;	
+	border: 3px double #e0e0e0;
+	text-align: center;
+	vertical-align: middle;
+}
+.widget_wcex_olwidget .olw_date {
+	line-height: 140%;
+	text-align: left;
+}
+.widget_wcex_olwidget .olw_amount {
+	font-weight: bold;
+	text-align: right;
+}
+.widget_wcex_olwidget .olw_state,
+.widget_wcex_olwidget .olw_member,
+.widget_wcex_olwidget .olw_amount {	
+	white-space: nowrap;
+}
+

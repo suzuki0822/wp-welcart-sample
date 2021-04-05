@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* =WCEX Pop Link
+-------------------------------------------------------------- */
+
+header #poplink {
+	top: 45px;
+	right: 0;
+	margin-left: 0 !important;
+}
+
+#poplink .popItem div {
+	border: none;
+}
+
+/**
+ * 16.1 Mobile Large 620px
+ */
+@media screen and (min-width: 38.75em) {
+}
+
+/**
+ * 16.2 Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+}
+
+/**
+ * 16.3 Tablet Large 880px
+ */
+@media screen and (min-width: 55em) {
+}
+
+/**
+ * 16.4 Desktop Small 1000px
+ */
+@media screen and (min-width: 62.5em) {
+
+	header #poplink {
+		top: 0;
+		right: 0;
+		margin-left: 0 !important;
+	}
+	
+}
